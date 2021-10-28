@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap");
+@use "sass:math";
+header a,
+footer,
+footer div {
+  display: flex;
+  flex-wrap: row;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Nunito", sans-serif;
+  max-width: 1400px;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+header {
+  background-color: lightgrey;
+  padding: 10px;
+}
+header a {
+  width: 100vw;
+  text-decoration: none;
+  color: #cf649a;
+}
+header a h1 {
+  text-align: center;
+  width: 90%;
+}
+header a img {
+  width: 10%;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  width: 100%;
+  font-size: 2rem;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  width: 100vw;
+  background-color: lightgrey;
+  padding-top: 10px;
+  border-top: 5px solid #cf649a;
+  font-weight: 400;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+}
+
+nav ul li,
+nav ul li a {
+  display: inline;
+  color: black;
+}
+
+nav ul li:hover {
+  font-weight: 700;
+}
+
+nav ul li > a:hover {
+  color: red;
+}
+
+section {
+  min-height: 20em;
+  background-color: lightpink;
+}
+
+footer {
+  background-color: #cf649a;
+  align-items: center;
+  justify-content: space-around;
+}
+footer div {
+  justify-content: space-around;
+}
+footer div a img {
+  width: 3rem;
+}
+footer p {
+  font-size: 0.8rem;
+}
+footer p,
+footer p a {
+  color: lightblue;
+}
+
+/*# sourceMappingURL=style.css.map */
